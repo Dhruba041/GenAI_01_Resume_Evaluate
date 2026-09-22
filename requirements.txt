@@ -1,0 +1,17 @@
+ipykernel
+pandas
+scikit-learn==1.8.0
+streamlit
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+faiss-cpu
+pymupdf
+pypdf
+python-dotenv
+pydantic
+#chromadb
+sentence-transformers
+langchain-huggingface
+langchain-ollama
