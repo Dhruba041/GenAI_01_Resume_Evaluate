@@ -572,5 +572,5 @@ if file:
 
 
 
-        st.write(os.getcwd())
-        st.write(os.listdir("."))
+        #st.write(os.getcwd())
+        #st.write(os.listdir("."))
