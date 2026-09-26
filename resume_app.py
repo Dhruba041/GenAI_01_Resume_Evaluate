@@ -95,10 +95,15 @@ model = HuggingFaceEmbeddings(
 )
 
 # FILES
+path = "/mount/src/genai_01_resume_evaluate"
 
-FAISS_FILE = "resume.faiss"
-METADATA_FILE = "resume_metadata.pkl"
+#FAISS_FILE = "resume.faiss"
+#METADATA_FILE = "resume_metadata.pkl"
 
+BASE_PATH = "/mount/src/genai_01_resume_evaluate"
+
+FAISS_FILE = os.path.join(BASE_PATH, "resume.faiss")
+METADATA_FILE = os.path.join(BASE_PATH, "resume_metadata.pkl")
 
 # LOAD JOB DESCRIPTIONS
 
