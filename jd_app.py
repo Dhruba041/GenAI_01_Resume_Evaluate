@@ -569,3 +569,8 @@ if file:
             f'<p style="color:brown;"><b>Chunks:</b> {len(chunks)}</p>',
             unsafe_allow_html=True
         )
+
+
+
+        st.write(os.getcwd())
+        st.write(os.listdir("."))
